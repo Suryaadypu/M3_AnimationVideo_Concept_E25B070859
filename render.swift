@@ -9,7 +9,7 @@ let BASE_W = 1280
 let BASE_H = 720
 let FPS: Int32 = 24
 let TITLE_SECONDS = 5.0
-let SCENE_DURATIONS: [Double] = [42.60, 66.52, 47.56, 45.24, 53.16, 46.44]
+let SCENE_DURATIONS: [Double] = [42.60, 46.26, 47.56, 45.24, 53.16, 56.44]
 let SCENE_STARTS = SCENE_DURATIONS.enumerated().map { index, _ in
     SCENE_DURATIONS.prefix(index).reduce(0.0, +)
 }
@@ -346,7 +346,7 @@ func render(_ ctx: CGContext, _ t: Double, _ idx: Int, _ local: Double) {
             text(takeaway[i],tx[i]+12,576,13,white,.medium,220)
         }
         text("Math source: OpenStax Calculus, Vol. 1, §3.1: Defining the Derivative", 70, 612, 13, muted, .regular, 1100)
-        text("Original instrumental · AI helped with script, visuals, code and voice synthesis; student supplied their own voice sample", 70, 634, 13, muted, .regular, 1000)
+        text("Original instrumental · AI-assisted script, visuals, code and narration", 70, 634, 13, muted, .regular, 1000)
     }
     let progress = CGFloat(t / TOTAL)
     rounded(ctx, CGRect(x:70,y:682,width:1140,height:5), 3, panel)

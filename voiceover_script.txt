@@ -1,5 +1,5 @@
 THE DERIVATIVE: FROM AVERAGE CHANGE TO CHANGE AT AN INSTANT
-Five-minute-seven-second narration guide. Speak naturally and clearly; leave a short pause between ideas.
+Four-minute-fifty-six-second narration guide. Speak naturally and clearly; leave a short pause between ideas.
 
 OPENING SLATE (0:00-0:05)
 [No narration. Let the title and student details stay on screen.]
@@ -7,20 +7,20 @@ OPENING SLATE (0:00-0:05)
 SCENE 1 - HOOK (0:05-0:48)
 Think of a car moving down a road. In three seconds, it travels sixty metres. Its average speed is sixty divided by three, or twenty metres per second. That tells us the speed across the whole interval. But what does speed mean at one exact instant? We cannot divide by zero seconds. Instead, we compare the car just before and just after that moment, then make the time interval smaller. The derivative is built from this idea. It tells us how quickly a quantity is changing at a particular moment.
 
-SCENE 2 - INTRODUCTION (0:48-1:54)
+SCENE 2 - INTRODUCTION (0:48-1:34)
 We will study the function f of x equals x squared. When x is one, the output is one. When x is two, the output is four. Plot these points and you get a U-shaped curve called a parabola. Its slope changes as you move along it: the curve is flatter near the bottom and steeper farther to the right. Our question is simple: what is the exact slope when x equals one? We will use a second point, watch it move toward the first, and connect that motion to the derivative. For this function, we will find that the slope at one is two.
 
-SCENE 3 - VISUAL INTUITION (1:54-2:42)
+SCENE 3 - VISUAL INTUITION (1:34-2:21)
 Mark the point A at one comma one. Now choose another point B, h units to the right. Its x-coordinate is one plus h, and its height is one plus h, squared. The straight line through A and B is called a secant. Its slope is the rise divided by the run: f of one plus h minus f of one, all divided by h. Move B closer to A. The secant rotates and begins to match the curve at A. The points are still separate, so h is not zero. We want to know what slope this line approaches as h gets closer to zero.
 
-SCENE 4 - WORKED DERIVATION (2:42-3:27)
+SCENE 4 - WORKED DERIVATION (2:21-3:07)
 Start with f of x equals x squared. The slope is the quantity one plus h, squared, minus one, all divided by h. Expand the square: one plus two h plus h squared, minus one, over h. The ones cancel. We have two h plus h squared over h. Factor h from the numerator, then cancel it. The result is two plus h. We can cancel h because the two points are still separate, so h is not zero. For h equal to one, the slope is three. For one-half, it is two point five. For one-tenth, it is two point one. These values approach two.
 
-SCENE 5 - INTERPRETATION (3:27-4:20)
+SCENE 5 - INTERPRETATION (3:07-4:00)
 Now let h approach zero in the simplified expression, two plus h. The result approaches two. We never put zero into the original fraction, because that would mean dividing by zero. On the graph, point B reaches A, and the secant settles into the tangent line. Its slope is two. So the derivative of x squared at x equals one is two. In fact, the derivative function is two x. Substitute one, and we get two again. On a position graph, this slope represents speed at that exact moment. The algebra and the moving graph tell the same story.
 
-SCENE 6 - SUMMARY AND CREDITS (4:20-5:07)
+SCENE 6 - SUMMARY AND CREDITS (4:00-4:56)
 Remember three things. A secant uses two points to measure average change. Bringing the points together leads to a limit. The tangent gives the instantaneous slope. For f of x equals x squared, the derivative is two x, so the slope at x equals one is two. This same idea helps describe a car's speed, population growth, or a changing temperature. Begin with change over an interval, then narrow that interval toward one instant. The limit gives the rate at that moment. The source and project credits are on screen.
 
-END CARD (5:00-5:07)
+END CARD (4:40-4:56)
 [Let the closing credits finish. The instrumental continues quietly.]

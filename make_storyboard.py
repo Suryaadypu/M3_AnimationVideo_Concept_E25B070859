@@ -28,11 +28,11 @@ styles.add(ParagraphStyle(name="SmallLabel", parent=styles["Normal"], fontName="
 
 scenes = [
     ("1 · HOOK", "0:05-0:48", "A car drives along the road with spinning wheels and motion streaks. Live time and distance counters tick up as the question <b>How fast right now?</b> appears.", "Average speed = distance ÷ time = 60 ÷ 3 = 20 metres per second. Ask how speed can be measured at one instant."),
-    ("2 · INTRODUCTION", "0:48-1:54", "Axes and the parabola <b>y = x²</b> draw progressively as a pulsing point sweeps along the curve and its coordinates update.", "Define f(x) = x² and identify A = (1, 1). The learning goal is to find the exact slope at x = 1."),
-    ("3 · VISUAL INTUITION", "1:54-2:42", "Point B travels along the curve toward A. The secant rotates while the run h and rise change; the tangent direction becomes visible.", "Secant slope = [f(1+h) − f(1)] / h. This is the average rate over an interval, where h ≠ 0."),
-    ("4 · WORKED DERIVATION", "2:42-3:27", "The algebra writes one line at a time as the secant moves. Values for h = 1, 0.5, and 0.1 appear beside the graph.", "[(1+h)² − 1] / h = [1+2h+h²−1] / h = [2h+h²] / h = h(2+h)/h = 2+h. Cancel h only while h ≠ 0. The sample slopes are 3, 2.5, and 2.1."),
-    ("5 · INTERPRETATION", "3:27-4:20", "The secant settles into the green tangent at A. A rise-and-run marker and derivative notation connect the graph to the result.", "As h approaches zero, 2+h approaches 2. Thus f′(1)=2, and for f(x)=x², f′(x)=2x."),
-    ("6 · SUMMARY & CREDITS", "4:20-5:07", "Three animated takeaways move through SECANT → LIMIT → TANGENT. Math, music, and AI credits finish with the progress line.", "A secant measures average change, the limit brings points together, and the tangent gives instantaneous slope."),
+    ("2 · INTRODUCTION", "0:48-1:34", "Axes and the parabola <b>y = x²</b> draw progressively as a pulsing point sweeps along the curve and its coordinates update.", "Define f(x) = x² and identify A = (1, 1). The learning goal is to find the exact slope at x = 1."),
+    ("3 · VISUAL INTUITION", "1:34-2:21", "Point B travels along the curve toward A. The secant rotates while the run h and rise change; the tangent direction becomes visible.", "Secant slope = [f(1+h) − f(1)] / h. This is the average rate over an interval, where h ≠ 0."),
+    ("4 · WORKED DERIVATION", "2:21-3:07", "The algebra writes one line at a time as the secant moves. Values for h = 1, 0.5, and 0.1 appear beside the graph.", "[(1+h)² − 1] / h = [1+2h+h²−1] / h = [2h+h²] / h = h(2+h)/h = 2+h. Cancel h only while h ≠ 0. The sample slopes are 3, 2.5, and 2.1."),
+    ("5 · INTERPRETATION", "3:07-4:00", "The secant settles into the green tangent at A. A rise-and-run marker and derivative notation connect the graph to the result.", "As h approaches zero, 2+h approaches 2. Thus f′(1)=2, and for f(x)=x², f′(x)=2x."),
+    ("6 · SUMMARY & CREDITS", "4:00-4:56", "Three animated takeaways move through SECANT → LIMIT → TANGENT. Math, music, and AI credits finish with the progress line.", "A secant measures average change, the limit brings points together, and the tangent gives instantaneous slope."),
 ]
 
 def scene_card(scene):
@@ -62,7 +62,7 @@ doc = SimpleDocTemplate(str(OUT), pagesize=letter, rightMargin=.68*inch, leftMar
                         topMargin=.55*inch, bottomMargin=.65*inch, title="Derivative: Instantaneous Rate of Change - Storyboard",
                         author="Mathematics Animation Project")
 story = [Paragraph("Derivative: Instantaneous Rate of Change", styles["ProjectTitle"]),
-         Paragraph("SIX-SCENE STORYBOARD  ·  5:07 ANIMATED VIDEO  ·  NATURAL-PACE NARRATION + QUIET ORIGINAL MUSIC", styles["SubtitleCustom"]),
+         Paragraph("SIX-SCENE STORYBOARD  ·  4:56 ANIMATED VIDEO  ·  NATURAL-PACE NARRATION + QUIET ORIGINAL MUSIC", styles["SubtitleCustom"]),
          Spacer(1, 4)]
 objective = Table([[Paragraph("LEARNING OBJECTIVE", styles["SmallLabel"]),
                     Paragraph("See how a secant slope approaches the tangent slope, giving the instantaneous rate of change.", styles["BodyCustom"])]],
@@ -93,9 +93,9 @@ flow.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,-1),colors.white), ("GRID",(0,
                           ("BOTTOMPADDING",(0,0),(-1,-1),8)]))
 facts = Table([[Paragraph("TOPIC", styles["SmallLabel"]), Paragraph("Derivative as instantaneous rate of change", styles["BodyCustom"])],
                [Paragraph("EXAMPLE", styles["SmallLabel"]), Paragraph("f(x) = x² at x = 1", styles["BodyCustom"])],
-               [Paragraph("DURATION", styles["SmallLabel"]), Paragraph("5 minutes 7 seconds; narrated with quiet instrumental music", styles["BodyCustom"])],
+               [Paragraph("DURATION", styles["SmallLabel"]), Paragraph("4 minutes 56 seconds; narrated with quiet instrumental music", styles["BodyCustom"])],
                [Paragraph("STUDENT", styles["SmallLabel"]), Paragraph("Surya Pratap Singh Rathore · URN E25B070859 · Turing · Lambda", styles["BodyCustom"])],
-               [Paragraph("CREDITS", styles["SmallLabel"]), Paragraph("OpenStax Calculus, Vol. 1, §3.1. Original instrumental score composed for this video. AI helped with script, visuals, code, and voice synthesis; student supplied their own voice sample and reviewed the mathematics.", styles["BodyCustom"])]],
+               [Paragraph("CREDITS", styles["SmallLabel"]), Paragraph("OpenStax Calculus, Vol. 1, §3.1. Original instrumental score composed for this video. AI assistance with the script, visuals, code, and narration; student reviewed the mathematics.", styles["BodyCustom"])]],
               colWidths=[1.25*inch, 5.9*inch])
 facts.setStyle(TableStyle([("BACKGROUND",(0,0),(0,-1),PALE), ("GRID",(0,0),(-1,-1),.4,colors.HexColor("#CFDCE5")),
                            ("VALIGN",(0,0),(-1,-1),"MIDDLE"), ("LEFTPADDING",(0,0),(-1,-1),9),

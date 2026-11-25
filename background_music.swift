@@ -2,7 +2,7 @@ import Foundation
 
 let output = CommandLine.arguments.count > 1 ? CommandLine.arguments[1] : "background_music.wav"
 let sampleRate = 24_000
-let duration = 306.52
+let duration = 296.26
 let frames = Int(duration * Double(sampleRate))
 let bpm = 82.0
 let beat = 60.0 / bpm

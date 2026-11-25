@@ -1,35 +1,35 @@
 DERIVATIVE: FROM AVERAGE CHANGE TO CHANGE AT AN INSTANT
 Opening slate (0:00-0:05): title, concept, student name/URN, batch, and lab.
-Six-scene storyboard | five-minute-seven-second animated video | 1920 × 1080, 16:9
+Six-scene storyboard | four-minute-fifty-six-second animated video | 1920 × 1080, 16:9
 
 SCENE 1 — HOOK (0:05–0:48)
 VISUAL: A car travels sixty metres in three seconds. Road markers, speedometer, timer, motion streaks, and distance counter move as the car reaches an instant marker.
 MATHEMATICS: Average speed = distance ÷ time = 60 ÷ 3 = 20 metres per second. Ask how to measure speed at one exact instant.
 
-SCENE 2 — CONCEPT INTRODUCTION (0:48–1:54)
+SCENE 2 — CONCEPT INTRODUCTION (0:48–1:34)
 VISUAL: The parabola draws across an animated coordinate plane. A point sweeps along the curve while its coordinates and tangent indicator update.
 MATHEMATICS: Define f(x) = x² and locate A = (1, 1). The goal is the exact slope at x = 1.
 
-SCENE 3 — VISUAL INTUITION (1:54–2:42)
+SCENE 3 — VISUAL INTUITION (1:34–2:21)
 VISUAL: Point B moves toward A. The secant rotates, the run h and rise change, and the curve's tangent direction becomes visible.
 MATHEMATICS: Secant slope = [f(1+h) − f(1)] / h. This measures average change between two points.
 
-SCENE 4 — WORKED DERIVATION (2:42–3:27)
+SCENE 4 — WORKED DERIVATION (2:21–3:07)
 VISUAL: Each algebra line writes on screen as the secant moves. Values for h = 1, 0.5, and 0.1 appear beside the graph.
 MATHEMATICS: [(1+h)² − 1] / h = [1+2h+h²−1] / h = [2h+h²] / h = 2+h, with h ≠ 0. The sampled slopes are 3, 2.5, and 2.1.
 
-SCENE 5 — INTERPRETATION (3:27–4:20)
+SCENE 5 — INTERPRETATION (3:07–4:00)
 VISUAL: The secant settles into the tangent at A. A rise-and-run marker, moving slope indicator, and derivative notation connect the graph to the result.
 MATHEMATICS: As h approaches zero, 2+h approaches 2. Therefore f′(1)=2, and for f(x)=x², f′(x)=2x.
 
-SCENE 6 — SUMMARY & CREDITS (4:20–5:07)
+SCENE 6 — SUMMARY & CREDITS (4:00–4:56)
 VISUAL: Three animated takeaways travel through SECANT → LIMIT → TANGENT. Math reference, original music credit, AI disclosure, and progress line finish on screen.
 MATHEMATICS: Secant means average change; the limit brings the points together; the tangent gives the instantaneous slope.
-CREDITS: OpenStax Calculus, Volume 1, §3.1. Original instrumental score created for this video. AI helped with script, visuals, code, and voice synthesis; the student supplied their own voice sample and reviewed the mathematics.
+CREDITS: OpenStax Calculus, Volume 1, §3.1. Original instrumental score created for this video. AI assistance with the script, visuals, code, and narration; the student reviewed the mathematics.
 
 PROJECT FACTS
 Topic: Derivative as instantaneous rate of change
 Example: f(x) = x² at x = 1
 Conclusion: f′(x) = 2x, so f′(1) = 2
-Video duration: 5 minutes 7 seconds, with natural-pace narration and quiet instrumental music
+Video duration: 4 minutes 56 seconds, with natural-pace narration and quiet instrumental music
 Output: 1920 × 1080, 16:9, H.264 MP4
