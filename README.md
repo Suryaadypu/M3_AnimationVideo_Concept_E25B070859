@@ -2,6 +2,8 @@
 
 This four-minute-fifty-six-second, six-scene video explains the derivative as instantaneous rate of change. It uses the example `f(x) = x²` at `x = 1`, where the derivative is `f′(1) = 2`.
 
+▶ **[Watch or download the final video](https://raw.githubusercontent.com/Suryaadypu/M3_AnimationVideo_Concept_E25B070859/main/Derivative_Animation_Voiced.mp4)**
+
 ## Deliverables
 
 - `Derivative_Animation_Voiced.mp4` — final 1920 × 1080 video with narration.
