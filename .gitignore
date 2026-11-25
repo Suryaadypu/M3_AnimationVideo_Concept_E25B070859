@@ -1,0 +1,8 @@
+__pycache__/
+/voice_clone.py
+/voiceover_audio/
+/background_music.wav
+/Derivative_Animation.mp4
+/voice-reference*
+/voice_reference*
+*.m4a
